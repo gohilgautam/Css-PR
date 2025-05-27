@@ -1,0 +1,113 @@
+@media(max-width:1399px){
+
+}
+
+
+@media(max-width:1199px){
+	.col-xl-12{
+		width: 100%;
+	}
+
+	/* HEADER */
+
+	header nav ul:last-child li:first-child p{
+		display: none;
+	}
+	header .logo-2 img {
+		margin: 20px 55px 15px 80px;
+	}
+	header .logo{
+		display: none;
+	}
+	header .logo-2{
+		display:block;
+	}
+
+	/* MAIN */
+
+	main{
+		width: 100%;
+	}
+
+	/* Sidebar */
+
+	aside{
+		position: absolute;
+		left: 100%;
+		top:0;
+		display: none;
+		width:25%
+	}
+	aside .profile{
+		display:none;
+	}
+}
+
+
+@media(max-width:991px){
+    .col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+
+	/* HEADER */
+
+	header nav ul:first-child li:first-child{
+		display: none;
+	}
+	header nav ul:last-child li{
+		display: none;
+	}
+	header nav ul:last-child li:first-child {
+		display: block;
+	}
+	header ul:last-child li:last-child{
+		display: block;
+	}
+	/* recent-tickets */
+
+	.recent-tickets{
+		width: 100%;
+		overflow-x: scroll;
+	}
+	
+
+	/* Recent Tickets */
+
+	.recent-tickets table{
+		width: 100%;
+		overflow-x: scroll;
+	}
+
+	/* FOOTER */
+
+	footer{
+		width: 100%;
+	}
+}
+
+
+@media(max-width:767px){
+    .col-sm-6{
+		width: 50%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+
+}
+
+
+@media(max-width:576px){
+    .col-xs-12{
+		width: 100%;
+	}
+
+	/* FOOTER */
+
+	footer ul li {
+		justify-content: center;
+	}
+}

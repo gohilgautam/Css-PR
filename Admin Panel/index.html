@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/jost/stylesheet.css" title="text/css" />
+    <link rel="stylesheet" href="fonts/remixicon/remixicon.css" title="text/css" />
+    <link rel="stylesheet" href="css/style.css" title="text/css" />
+    <link rel="stylesheet" href="css/media.css" title="text/css" />
+
+</head>
+
+<body>
+    <!-- HEADER -->
+
+    <header>
+        <div class="d-flex align-items-center">
+            <a href="javascript:void(0)" class="logo">
+                <img src="images/logo.svg" alt="logo" title="logo" width="135">
+            </a>
+            <a href="javascript:void(0)" class="logo-2">
+                <img src="images/logo-2.svg" alt="logo-2" title="logo-2" width="20">
+            </a>
+            <nav class="d-flex align-items-center justify-between">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-menu-add-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="ri-search-2-line"></i>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="text" placeholder="Search Projects">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="javascript:void(0)" class="d-flex align-items-center relative">
+                            <img src="images/profile.jpg" alt="profile" title="profile" width="32">
+                            <p>David Greymaax</p>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="relative">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="relative">
+                            <i class="ri-notification-4-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-shut-down-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-list-unordered"></i>
+                        </a>
+                    </li>
+                    <li class="aside-menu">
+                        <a href="javascript:void(0)">
+                            <i class="ri-menu-add-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+
+    <aside>
+        <div class="profile">
+            <a href="javascript:void(0)" class="d-flex align-items-center justify-between">
+                <div class="d-flex">
+                    <img src="images/profile.jpg" alt="profile" title="profile" width="45">
+                    <ul>
+                        <li>
+                            <h4>David Grey. H</h4>
+                            <p>Project Manager</p>
+                        </li>
+                    </ul>
+                </div>
+                <i class="ri-bookmark-3-fill"></i>
+            </a>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="javascript:void(0)" class="d-flex align-items-center justify-between">
+                    <p>Dashboard</p>
+                    <i class="ri-home-5-fill"></i>
+                </a>
+            </li>
+              <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Basic UI Elements</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-focus-3-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Buttons</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Dropdowns</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Typography</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Form Elements</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-menu-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Basic Elements</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Table</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-grid-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Basic Table</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Icons</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-contacts-book-2-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Material</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Charts</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-bar-chart-2-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Charts Js</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>User Pages</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-lock-2-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="Sign-in.html">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sign-up.html">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Register</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Lockscreen</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>Error Pages</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-shield-flash-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>404</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>500</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="accordion-contain">
+                <div>
+                    <a href="javascript:void(0)" class="d-flex justify-between">
+                        <p>General Pages</p>
+                        <div>
+                            <i class="ri-arrow-left-s-line"></i>
+                            <i class="ri-briefcase-fill"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="accordion-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-arrow-right-line"></i>
+                            <span>Blank Page</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:void(0)" class="d-flex justify-between">
+                    <p>Documentation</p>
+                    <ul>
+                        <li>
+                            <i class="ri-article-fill"></i>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main>
+        <div class="menu-title">
+            <ul class="d-flex justify-between align-items-center">
+                <li class="d-flex align-items-center">
+                    <i class="ri-home-5-fill"></i>
+                    <h1>Dashboard</h1>
+                </li>
+                <li>
+                    <span>Overview</span>
+                    <i class="ri-information-line"></i>
+                </li>
+            </ul>
+        </div>
+
+        <section class="analysis">
+            <div class="row">
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="analysis-item">
+                        <ul class="d-flex justify-between">
+                            <li>
+                                <h4>Weekly Sales</h4>
+                                <h2>$15,0000</h2>
+                            </li>
+                            <li>
+                                <i class="ri-line-chart-line"></i>
+                            </li>
+                        </ul>
+                        <p>Increased by 60%</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="analysis-item">
+                        <ul class="d-flex justify-between">
+                            <li>
+                                <h4>Weekly Orders</h4>
+                                <h2>$45,6334</h2>
+                            </li>
+                            <li>
+                                <i class="ri-bookmark-line"></i>
+                            </li>
+                        </ul>
+                        <p>Decreased by 10%</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="analysis-item">
+                        <ul class="d-flex justify-between">
+                            <li>
+                                <h4>Visitors Orders</h4>
+                                <h2>$95,5741</h2>
+                            </li>
+                            <li>
+                                <i class="ri-vip-diamond-fill"></i>
+                            </li>
+                        </ul>
+                        <p>Increased by 5%</p>
+                    </div>
+                </div>
+                <div class="col-7 col-xl-12">
+                    <div class="analysis-item">
+                        <div id="chart1"></div>
+                    </div>
+                </div>
+                <div class="col-5 col-xl-12 ">
+                    <div class="analysis-item chart-2">
+                        <div id="chart2"></div>
+                        <ul class="align-items-center justify-between">
+                            <li class="d-flex accordion justify-between relative">
+                                <p>Search Engines</p>
+                                <ul>
+                                    <li>30%</li>
+                                </ul>
+                            </li>
+                            <li class="d-flex accordion justify-between relative">
+                                <p>Direct Click</p>
+                                <ul>
+                                    <li>30%</li>
+                                </ul>
+                            </li>
+                            <li class="d-flex accordion justify-between relative">
+                                <p>Bookmarks Click</p>
+                                <ul>
+                                    <li>30%</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Recent Tickets -->
+
+                <div class="col-12">
+                    <div class="analysis-item recent-tickets">
+                        <h4>Recent Tickets</h4>
+                        <table width="100%">
+                            <thead align="left">
+                                <tr>
+                                    <th>Assignee</th>
+                                    <th>Subject</th>
+                                    <th>Status</th>
+                                    <th>Last Update</th>
+                                    <th>Tracking ID
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/profile.jpg" alt="profile" title="profile" width="40">
+                                            <span>David Grey</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>Fund is not recieved</span>
+                                    </td>
+                                    <td>
+                                        <span>DONE</span>
+                                    </td>
+                                    <td>
+                                        <span>Dec 5, 2017</span>
+                                    </td>
+                                    <td>
+                                        <span>WD-12345</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/table-img-1.jpg" alt="table-img-1" title="table-img-1"
+                                                width="40">
+                                            <span>Stella Johnson</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>High loading time </span>
+                                    </td>
+                                    <td>
+                                        <span>PROGRESS</span>
+                                    </td>
+                                    <td>
+                                        <span>Dec 12, 2017</span>
+                                    </td>
+                                    <td>
+                                        <span>WD-12346</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/table-img-2.jpg" alt="table-img-2" title="table-img-2"
+                                                width="40">
+                                            <span>Marina Michel</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>Website down for one week</span>
+                                    </td>
+                                    <td>
+                                        <span>ON HOLD</span>
+                                    </td>
+                                    <td>
+                                        <span>Dec 16, 2017</span>
+                                    </td>
+                                    <td>
+                                        <span>WD-12347</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/table-img-3.jpg" alt="table-img-3" title="table-img-3"
+                                                width="40">
+                                            <span>John Doe</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>Loosing control on server</span>
+                                    </td>
+                                    <td>
+                                        <span>REJECTED</span>
+                                    </td>
+                                    <td>
+                                        <span>Dec 3, 2017</span>
+                                    </td>
+                                    <td>
+                                        <span>WD-12348</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CALENDER -->
+                <div class="col-5 col-xl-12">
+                    <div class="analysis-items calendar-container">
+                        <div class="calendar-month-arrow-container">
+                            <div class="calendar-month-year-container">
+                                <select class="calendar-years"></select>
+                                <select class="calendar-months">
+                                </select>
+                            </div>
+                            <div class="calendar-month-year">
+                            </div>
+                            <div class="calendar-arrow-container">
+                                <button class="calendar-today-button"></button>
+                                <button class="calendar-left-arrow">
+                                    ← </button>
+                                <button class="calendar-right-arrow"> →</button>
+                            </div>
+                        </div>
+                        <ul class="calendar-week">
+                        </ul>
+                        <ul class="calendar-days">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-7 col-xl-12">
+                    <div class="analysis-item recents-updates">
+                        <h4>Recent Updates</h4>
+                        <ul class="d-flex">
+                            <li>
+                                <i class="ri-user-line"></i>
+                                <span>jack Menqu</span>
+                            </li>
+                            <li>
+                                <i class="ri-time-line"></i>
+                                <span>October 3rd, 2018</span>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="images/recent-1.jpg" alt="recent-1" title="recent-1" width="100%">
+                                <img src="images/recent-2.jpg" alt="recent-2" title="recent-2" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/recent-3.jpg" alt="recent-3" title="recent-3" width="100%">
+                                <img src="images/recent-4.jpg" alt="recent-4" title="recent-4" width="100%">
+                            </div>
+                        </div>
+                        <div class="updates-img d-flex align-items-center justify-between">
+                            <ul>
+                                <li class="d-flex align-items-center justify-between">
+                                    <img src="images/table-img-2.jpg" alt="profile" title="profile" width="45">
+                                    <div>
+                                        <h5>School Website - Authentication Module.</h5>
+                                        <p>It is a long established fact that a reader will be distracted by the
+                                            readable
+                                            content of a page.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <i class="ri-heart-line"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Status -->
+
+                <div class="col-7 col-md-12">
+                    <div class="analysis-item project-status">
+                        <h4>Project Status</h4>
+                        <table width="100%">
+                            <thead>
+                                <tr align="left">
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Due Date</th>
+                                    <th>Progress</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Herman Beck</td>
+                                    <td>May 15, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Messsy Adam</td>
+                                    <td>Jul 01, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>John Richards</td>
+                                    <td>Apr 12, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Peter Meggik</td>
+                                    <td>May 15, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Edward</td>
+                                    <td>May 03, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Ronald</td>
+                                    <td>Jun 05, 2015</td>
+                                    <td>
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-5 col-md-12">
+                    <div class="analysis-item form">
+                        <form class="d-flex">
+                            <input type="text" placeholder="What do you need to do today?">
+                            <button type="submit">Add</button>
+                        </form>
+                        <ul class="todo-list">
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-1">
+                                    <label>Pick up kids from school</label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-2" checked>
+                                    <label><del>Prepare for presentation</del></label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-3">
+                                    <label>Print Statements</label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-4">
+                                    <label>Create invoice</label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-5" checked>
+                                    <label><del>Call John</del></label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" class="task-6">
+                                    <label>Meeting with Alisa</label>
+                                </div>
+                                <button class="delete-btn">&times;</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="d-flex justify-between">
+            <li>
+                <p>Copyright © <a href="javascript:void(0)">bootstrapdash.com</a> 2020</p>
+            </li>
+            <li>
+                <p>Free <a href="javascript:void(0)">react admin</a> templates from BootstrapDash.com.</p>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="js/apexcharts.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".accordion-contain div").click(function () {
+                $(this).parent(".accordion-contain").find(".accordion-item").slideToggle();
+            });
+            $(".accordion-contain div").click(function () {
+                $(this).parent(".accordion-contain").prevAll(".accordion-contain").find(".accordion-item").slideUp();
+            });
+            $(".accordion-contain div").click(function () {
+                $(this).parent(".accordion-contain").nextAll(".accordion-contain").find(".accordion-item").slideUp();
+            });
+        });
+
+        $(document).ready(function(){
+            $(".ri-menu-add-line").click(function(){
+                $("aside").slideToggle();
+            });
+        });
+    </script>
+
+</html>
