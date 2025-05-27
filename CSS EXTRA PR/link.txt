@@ -1,0 +1,298 @@
+https://html.themewin.com/edurcok-preview-tailwind/edurock/home-10.html
+
+
+
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-title d-flex align-items-center">
+                    <div class="col-xl-12">
+                        <div class="title-contain">
+                            <h4>Still You Need Our<span> Support</span>?</h4>
+                            <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="title-form">
+                            <form class="d-flex relative">
+                                <input type="email" placeholder="Enter Your Email Here">
+                                <button type="submit">Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-inner d-flex">
+                    <div class="col-4 col-sm-6">
+                        <div class="footer-contain">
+                            <h4>About us</h4>
+                            <p>orporate clients and leisure travelers has been relying on Groundlink for dependable
+                                safe,
+                                and
+                                professional chauffeured car end service in major cities across World</p>
+                            <div class="footer-time d-flex align-items-center">
+                                <i class="ri-time-line"></i>
+                                <div>
+                                    <h6>OPENING HOURES</h6>
+                                    <p>Mon - Sat(8.00 - 6.00)</p>
+                                    <p>Sunday - Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-6">
+                        <div class="footer-items">
+                            <h4>Usefull Links</h4>
+                            <ul>
+                                <li><a href="javascript:void(0)">About Us</a></li>
+                                <li><a href="javascript:void(0)">Teachers</a></li>
+                                <li><a href="javascript:void(0)">Partner</a></li>
+                                <li><a href="javascript:void(0)">Room-Details</a></li>
+                                <li><a href="javascript:void(0)">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-6">
+                        <div class="footer-items">
+                            <h4>Course</h4>
+                            <ul>
+                                <li><a href="javascript:void(0)">Ui Ux Design</a></li>
+                                <li><a href="javascript:void(0)">Web Development</a></li>
+                                <li><a href="javascript:void(0)">Business Strategy</a></li>
+                                <li><a href="javascript:void(0)">Softwere Development</a></li>
+                                <li><a href="javascript:void(0)">Business English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-6">
+                        <div class="footer-items">
+                            <h4>Recent Post</h4>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)" class="d-flex align-items-center">
+                                        <img src="images/footer-1.png" alt="footer-1" title="footer-1">
+                                        <ul>
+                                            <li>
+                                                <p>02 Apr 2024</p>
+                                                <h6>Best Your Business</h6>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="d-flex align-items-center">
+                                        <img src="images/footer-2.png" alt="footer-2" title="footer-2">
+                                        <ul>
+                                            <li>
+                                                <p>02 Apr 2024</p>
+                                                <h6>Best Your Business</h6>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="d-flex align-items-center">
+                                        <img src="images/footer-3.png" alt="footer-3" title="footer-3">
+                                        <ul>
+                                            <li>
+                                                <p>02 Apr 2024</p>
+                                                <h6>Best Your Business</h6>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-between">
+                        <div class="col-2 col-md-12">
+                            <div class="logo-2">
+                                <img src="images/logo-2.png" alt="logo-2" title="lodo-2">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-12">
+                            <p>Copyright © <span>2024</span> by edurock. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-3 col-md-12">
+                            <ul class="d-flex justify-between">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="ri-twitter-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="ri-vimeo-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="ri-linkedin-box-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="ri-skype-fill"></i> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+footer {
+	background-image: url(../images/footer-bg.png);
+	padding: 65px 0;
+}
+.footer-title{
+	padding-bottom: 50px;
+}
+.footer-inner {
+	border-top: 1px solid #263546;
+	padding-top: 50px;
+}
+footer h4, footer h4 span {
+	font-size: 40px;
+	color: var(--theme-white);
+	margin-bottom: 10px;
+}
+.footer-title span {
+	color: var(--theme-pink);
+}
+footer p {
+	color: var(--footer-color);
+}
+footer input,
+footer button {
+	outline: var(--text-color);
+	height: 62px;
+}
+footer form {
+	margin-left: 50px;
+}
+footer form input {
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	color: var(--theme-white);
+	padding-left:15px;
+	font-size: 15px;
+	background-color: rgb(32 41 66);
+}
+footer form button {
+	border-radius: 5px;
+	padding: 0 20px;
+	font-size: 15px;
+	color: var(--theme-white);
+	border: none;
+	background-color: var(--theme-purple);
+	transition: all 0.2s linear;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+	
+.footer-items h4 {
+	font-size: 40px;
+	color: var(--theme-white);
+	margin-bottom: 15px;
+}
+footer .footer-inner {
+	padding: 110px 0 130px 0;
+}
+footer .footer-inner .footer-contain {
+	margin-right: 25px;
+}
+footer .footer-inner h4 + p {
+	color: var(--footer-color);
+	margin: 12px 0 30px 0;
+	line-height: 30px;
+
+}
+footer .footer-inner .footer-time i {
+	font-size: 30px;
+	padding: 20px;
+	background-color: var(--theme-purple);
+	color: var(--theme-white);
+	margin-right: 20px;
+}
+footer .footer-inner .footer-time h6 {
+	font-size: 18px;
+	color: var(--theme-white);
+	margin-bottom: 5px;
+}
+footer .footer-inner .footer-time p {
+	color: var(--footer-color);
+}
+footer .footer-items ul li a,
+footer .footer-items ul li p {
+	color: var(--footer-color);
+}
+footer .footer-items ul li a {
+	margin: 10px 0;
+	position: relative;
+}
+footer .footer-items ul li a::after {
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: var(--theme-purple);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition:all 0.5s linear;
+}
+footer .footer-items ul li a:not(.col-3:last-child li a)::after {
+	width: 0;
+}
+footer .footer-items ul li a:not(.col-3:last-child li a):hover::after {
+	color: var(--theme-purple);
+	width: 100%;
+}
+.footer-inner .col-3:last-child a li {
+	margin-left: 10px;
+}
+.footer-inner .col-3:last-child a li p {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.footer-inner .col-3:last-child a li h6 {
+	transition: all 0.2s linear;
+}
+.footer-inner .col-3:last-child a:hover li h6 {
+	color: var(--theme-purple);
+}
+footer h6 {
+	color: var(--theme-white);
+	font-size: 15px;
+}
+.copyright {
+	padding-top: 40px;
+}
+.copyright p {
+	color: var(--theme-white);
+}
+.copyright p span {
+	color: var(--theme-purple);
+}
+.copyright ul li a i {
+	color: var(--theme-white);
+	padding: 10px;
+	background-color: #ffffff1a;
+	transition: all 0.2s linear;
+}
+.copyright ul li a i:hover {
+	background-color: var(--theme-purple);
+}

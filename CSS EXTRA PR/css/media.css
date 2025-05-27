@@ -1,0 +1,162 @@
+/* XXL */
+@media(max-width:1399px) {
+	.container {
+		max-width: 1320px;
+	}
+
+	/* HEADER */
+
+	
+	header nav ul:last-child .ri-menu-line{
+		display: none;
+	}
+	header nav ul:last-child .ri-user-5-fill{
+		padding: 10px;
+	}
+}
+
+/* XL */
+
+@media(max-width:1199px) {
+	.container {
+		max-width: 1140px;
+	}
+	.col-lg-3{
+		width: 25%;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	.col-xl-6{
+		width: 50%;
+	}
+	.col-xl-12{
+		width: 100%;
+	}
+
+	/* HEADER */
+
+	header .top-bar {
+		display: none;
+	}
+	header nav ul:last-child li:last-child a{
+		display: none;
+	}
+
+	
+	/* GALLERY */
+
+	.gallery{
+		padding: 30px;
+	}
+
+
+}
+
+/* LG */
+
+@media(max-width:991px) {
+	.container {
+		max-width: 960px;
+	}
+	.col-md-4{
+		width: 33.33%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+	/* header  */
+
+	header ul:first-child{
+		display: none;
+	}
+	header nav{
+		display: flex;
+		justify-content:end;
+	}
+	header nav ul:last-child .ri-menu-line{
+		display: block;
+		font-size: 25px;
+	}
+	header nav ul:last-child li:last-child, header nav .ri-user-5-fill {
+		display: none;
+	}
+
+	/* OUR VALUATION */
+
+	.valution-item{
+		margin:25px 0;
+	}
+
+	/* Pricing Plan */
+
+	.pricing-item{
+		gap: 25px 30px;
+	}
+	
+	.pricing-item .pricing-data{
+		width: 100%;
+	}
+	.pricing-item .pricing-btn a{
+		width: 100%;
+	}
+
+	/* EDUCATION SOLUTION */
+
+	.education{
+		padding-top: 100px;
+	}
+	.education .edu-contain, .education .edu-img{
+		padding: 0;
+	}
+	.edu-img{
+		margin-top	: 30px;
+	}
+
+	/* NEWS & BLOG */
+
+	.news-item{
+		margin-top:25px;
+	}
+
+	/* Our online courses */
+
+	.courses-content{
+		margin-top: 25px;
+	}
+}
+
+/* MD */
+@media(max-width:767px) {
+	.container {
+		max-width: 720px;
+	}
+
+	.col-sm-6{
+		width: 50%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+
+	/* About Us */
+
+	.about-content{
+		margin-top: 25px;
+	}
+}
+
+/* SM */
+
+@media(max-width:576px) {
+	.container {
+		max-width: 540px;
+	}
+	.col-xs-12{
+		width: 100%;
+	}
+
+}
